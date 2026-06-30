@@ -1,0 +1,184 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  background:#050505;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+}
+
+.container{
+  max-width:480px;
+  margin:auto;
+  padding:30px 16px;
+}
+
+.hero{
+  text-align:center;
+  padding:25px 10px;
+}
+
+.logo{
+  width:145px;
+  height:145px;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid #ff7a00;
+  box-shadow:0 0 25px rgba(255,122,0,.6);
+  margin-bottom:18px;
+}
+
+h1{
+  font-size:40px;
+  font-weight:900;
+  letter-spacing:2px;
+  color:#fff;
+}
+
+.slogan{
+  color:#ff7a00;
+  font-weight:bold;
+  margin-top:8px;
+  font-size:17px;
+}
+
+.ubicacion{
+  color:#ccc;
+  margin-top:8px;
+  font-size:14px;
+}
+
+.botones{
+  margin-top:20px;
+}
+
+.btn{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  width:100%;
+  background:#111;
+  color:#fff;
+  text-decoration:none;
+  padding:18px;
+  margin-bottom:16px;
+  border-radius:18px;
+  border:2px solid #ff7a00;
+  box-shadow:5px 5px 0 #ff7a00;
+  font-weight:bold;
+  font-size:17px;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:translateY(-4px);
+}
+
+.btn i{
+  font-size:25px;
+  color:#ff7a00;
+}
+
+.principal{
+  background:#ff7a00;
+  color:#000;
+  border:none;
+  box-shadow:5px 5px 0 #fff;
+}
+
+.principal i{
+  color:#000;
+}
+
+.servicios{
+  margin-top:35px;
+}
+
+h2{
+  text-align:center;
+  color:#ff7a00;
+  font-size:30px;
+  margin-bottom:18px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+.card{
+  background:#111;
+  border:1px solid #ff7a00;
+  border-radius:16px;
+  padding:18px 10px;
+  text-align:center;
+  font-weight:bold;
+  box-shadow:0 0 12px rgba(255,122,0,.25);
+}
+
+.horarios{
+  margin-top:40px;
+  background:#111;
+  border:2px solid #ff7a00;
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 0 15px rgba(255,122,0,.25);
+}
+
+.horarios h2{
+  text-align:center;
+  color:#ff7a00;
+  margin-bottom:25px;
+}
+
+.hora{
+  text-align:center;
+  margin-bottom:18px;
+}
+
+.hora:last-child{
+  margin-bottom:0;
+}
+
+.hora h3{
+  color:#fff;
+  font-size:20px;
+  margin-bottom:6px;
+}
+
+.hora p{
+  color:#ffb36a;
+  font-size:18px;
+  font-weight:bold;
+}
+
+footer{
+  margin-top:45px;
+  text-align:center;
+  padding-bottom:25px;
+}
+
+footer a{
+  color:#aaa;
+  text-decoration:none;
+  font-size:13px;
+}
+
+footer strong{
+  color:#ff7a00;
+}
+
+@media(max-width:480px){
+  h1{
+    font-size:34px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+}
